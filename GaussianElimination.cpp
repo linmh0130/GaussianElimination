@@ -130,7 +130,8 @@ int main()
 	cout<<"x = [";
 	for (int i=0;i<n;i++)
 	{
-		cout<<b[i]<<' ';
+		if(i==0)cout<<b[i];
+		else cout<<' '<<b[i];
 	}
 	cout<<']'<<endl;
 	

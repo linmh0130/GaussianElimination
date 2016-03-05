@@ -40,6 +40,7 @@ void getb(int n)
 	}
 }
 
+//Solve the problem by Gaussian Elimination
 void Solve(int n)
 {
 	double TmpDouble;
@@ -110,7 +111,7 @@ int main()
 	cout<<"Please input the rank of A:";
 	cin>>n;
 	getA(n);getb(n);
-	Solve(n); // 
+	Solve(n); // To Solve
 	
 	// The code follows in /**/ is use to debug
 	/*

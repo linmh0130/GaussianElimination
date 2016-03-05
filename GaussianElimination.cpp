@@ -61,8 +61,8 @@ void Solve(int n)
 		
 		// swap A[j] with the vector has largest number in j
 		if (A[TmpInt][j] == 0)
-		{
-			cerr<<"Error! The program may not have only one solution."<<endl;
+		{	// at this time, det(A) = 0
+			cerr<<"Error! The program may have no solution."<<endl;
 			exit(1); 
 		}
 		if (TmpInt!=j)

@@ -103,13 +103,17 @@ void Solve(int n)
 
 int main()
 {
-	int n; // The rank of A
+	int n = 0; // The rank of A
 	cout<<"Solving Ax = b by Gaussian Elimination"<<endl;
 	cout<<"--------------------------------------"<<endl;
 	cout<<"This program can only solve questions "
 	      "with just one solution.\n"<<endl;
-	cout<<"Please input the rank of A:";
-	cin>>n;
+	while(n<1)
+	{
+		cout<<"Please input the rank of A:";
+		cin>>n;
+		if (n<1) cout<<"Please input a number larger than 1!"<<endl;
+	}
 	getA(n);getb(n);
 	Solve(n); // To Solve
 	

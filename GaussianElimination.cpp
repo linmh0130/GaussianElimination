@@ -1,5 +1,5 @@
 /** An Example to solve  Equations Ax = b **/
-/*  Coding by Lin Menghan of XJTU
+/*  Coding by Lin Menghan from XJTU
  *  Using Gaussian Elimination and Column Pivot Element
  *  I wish you like this code!
 */
